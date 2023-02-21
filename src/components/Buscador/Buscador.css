@@ -1,0 +1,112 @@
+.cnt {
+    padding-top: 10px;
+}
+
+
+.cont-home{
+  background: #ddd;
+  height: 100vh;
+}
+
+
+.title {
+    text-align: center;
+    margin: 0;
+    font-size: 45px;
+    padding-top: 60px;
+    text-shadow: 0 0 2px black;
+    letter-spacing: -1px;
+    font-variant: small-caps;
+}
+
+#title {
+    color: black;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: inset black 0 0 5px;
+}
+
+#title:focus{
+  box-shadow: 0 0 12px black;
+  outline: none
+}
+
+.form-container {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.form-container button {
+    margin-left: 5px;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    background: gray;
+    color: white;
+    text-shadow: 0 0 3px white;
+}
+
+.form-container button:active {
+    transform: scale(0.9);
+    box-shadow: 0 0 10px black;
+}
+
+.li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.li img{
+    cursor: pointer;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.li a{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-size: 18px;
+    transition: all ease 500ms;
+}
+
+.li a:hover{
+  transform: scale(1.05);
+  border-bottom: 2px #aaa solid;
+  text-shadow: 0 0 1px black;
+}
+
+.li button {
+    border: none;
+    background: black;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 200px;
+    transition: all ease 500ms;
+}
+
+.li button:hover,
+.li button:active {
+  background: gray;
+  color: black;
+  box-shadow: 0 0 8px black;
+  transform: translateY(-3px);
+}
+
+.lista {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    background: #ddd;
+    height: auto;
+}

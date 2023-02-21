@@ -1,0 +1,54 @@
+.cont-fav{
+ background: #ddd;
+ height: 100vh;
+}
+
+.favTitle{
+ margin: 0;
+ padding-top: 20px;
+ text-align: center;
+ font-size: 40px;
+font-variant: small-caps;
+}
+
+.favList{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.favList li {
+    transition: all ease 500ms;
+  
+}
+
+.favList li:hover {
+   border: 2px black solid;
+   padding: 5px;
+   border-radius: 10px;
+   box-shadow: 0 0 8px black;
+   transform: translateY(-2px);
+}
+
+.favList a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    font-style: italic;
+}
+
+.favList button {
+    font-size: 15px;
+    background: none;
+    border: none;
+    transition: all ease 500ms;
+}
+
+.favList button:hover,
+.favList button:active {
+  color: red;
+  transform: scale(0.95);
+}

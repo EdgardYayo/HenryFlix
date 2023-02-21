@@ -1,0 +1,43 @@
+.movie-detail{
+ background: #ddd;
+}
+
+#mTitle{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+  text-align: center;
+  font-size:30px;
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: -1px;
+}
+
+.mDetails{
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+  background:#818181;
+  border-radius: 100px;
+  box-shadow: 0 0 8px black;
+}
+
+#mGenre {
+  font-style: italic;
+}
+
+#mYear, #mRate{
+  font-weight: 600;
+}
+
+
+#mImg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 600px;
+  border-radius: 20px;
+}
