@@ -19,7 +19,7 @@ export default function NavBar() {
                 <ul className="list">
                     <li className="list-item">
                         <NavLink exact to="/" >Home</NavLink>
-                        <NavLink to="/favs" >Favorites⭐<span className='indicator'>{moviesFav.length}</span></NavLink>
+                        <NavLink to="/favs" >Favorites⭐ {moviesFav.length !== 0 ? <span className='indicator'>{moviesFav.length}</span> : null }</NavLink>
                     </li>
                 </ul>
             </nav>

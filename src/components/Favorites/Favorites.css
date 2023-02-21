@@ -25,11 +25,8 @@ font-variant: small-caps;
 }
 
 .favList li:hover {
-   border: 2px black solid;
    padding: 5px;
-   border-radius: 10px;
-   box-shadow: 0 0 8px black;
-   transform: translateY(-2px);
+   transform: translateY(-4px);
 }
 
 .favList a {

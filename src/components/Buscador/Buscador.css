@@ -13,7 +13,7 @@
     text-align: center;
     margin: 0;
     font-size: 45px;
-    padding-top: 60px;
+    padding-top: 30px;
     text-shadow: 0 0 2px black;
     letter-spacing: -1px;
     font-variant: small-caps;
@@ -37,7 +37,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .form-container button {
