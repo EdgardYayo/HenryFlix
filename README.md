@@ -1,3 +1,16 @@
+# Images
+
+![image](https://user-images.githubusercontent.com/108090188/220220516-1218577d-5467-434f-a368-e66fb5920a34.png)
+
+![image](https://user-images.githubusercontent.com/108090188/220220568-1bd26201-a09d-4bd1-b317-e1920dc74a7a.png)
+
+![image](https://user-images.githubusercontent.com/108090188/220220613-3d3584e6-8869-436f-a6bb-975f56eb396b.png)
+
+![image](https://user-images.githubusercontent.com/108090188/220220689-448b1f83-d2ab-4d56-a8a4-912af0fe28e0.png)
+
+
+
+
 # Redux OMDB APP
 
 En este ejercicio vamos a crear una APP que utilice la API de [OMDB](http://www.omdbapi.com/). Vamos a crear nuestra app utilizando __REACT__ y __REDUX__.
